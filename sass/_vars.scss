@@ -1,0 +1,16 @@
+//Fonts
+$main-font: 'play-bold', 'Arial', sans-serif;
+$regular-font: 'roboto-regular', 'Arial', sans-serif;
+
+//Colors
+$black: #222222;
+$white: #ffffff;
+$light: #F5F5F5;
+$text: #757575;
+$main: #4527A0;
+$accent: #D84315;
+
+//Mixins
+@mixin tr($time){
+    transition: all $time ease;
+}
